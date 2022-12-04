@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav, h2 {
+    font-family: 'Advent Pro', sans-serif;
+}
+
+#cache p{
+    color: burlywood;
+}
+
+body {
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+    background: burlywood;
+    margin-bottom: 5%;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}
+
+h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-size: 3em;
+  }
+
+h3 {
+    text-transform: capitalize;
+    padding-top: 30px;
+    font-size: 2em;
+  }
+
+#loisirs , #contact , #competences , #experiences {
+    color : black;
+    font-size : 1.4em;
+}
+
+/* *************************NAVBAR******************** */
+nav {
+    position: fixed;
+    overflow: hidden;
+    background-color:#5A7A8E;
+    width: 100%;
+    opacity: 0.8;
+    font-size: 1.2em;
+    color: white;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;    
+    color: white;
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+
+#logo {
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: bold;
+    float: left;
+}
+
+li{
+    list-style-type:none;
+}
+
+/* *************************PRESENTATION******************/
+
+#photoProfil {
+padding-top: 10%;
+}
+
+#presentation {
+    height: 140px;
+    width: 1000px;
+    margin: auto;
+    background-color: #67689B;
+    box-shadow: 1px 3px 3px black;
+    font-size: 1.6em;
+}
+
+#vpresentation{
+    height: 140px;
+    width: 1000px;
+    margin: auto;
+    font-size: 1.6em;
+    padding-top: 7%;
+}
+
+/* **********************EXPERIENCES****************** */
+
+#ecoles h1{
+	padding-top : 100px;
+}
+
+/* ***********************COMPETENCES/CONTACT/LOISIRS****************** */
+
+#competences , #loisirs , #contact {
+    margin: -20px;
+}
+
+/* **********************TRAIT*************************** */
+
+#trait {
+    height: 5px;
+    width: 50%;
+    margin: 50px auto;
+    background-color: #5A7A8E;
+    box-shadow: 1px 1px 2px black;
+  }
+
+#secondTrait {
+    height: 3px;
+    width: 25%;
+    margin: 5px auto;
+    background-color: #5A7A8E;
+    box-shadow: 1px 1px 2px black;
+  }
+
+/*****************************MVC *************************/
+
+#mvc {
+    border : solid;
+    border-radius: 10%;
+}
